@@ -1,0 +1,79 @@
+{
+	"id": "com.sap.sample.dropdown",
+	"version": "1.0.0",
+	"name": "Drop Down Box",
+	"description": "A Drop Down box",
+	"newInstancePrefix": "DropDownBox",
+	"vendor": "Danny Brassil",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sap-sample-dropdown",
+			"url": "/main.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "com-sap-sample-dropdown-styling",
+			"url": "/styling.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "builder",
+			"tag": "com-sap-sample-dropdown-builder",
+			"url": "/builder.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"color": {
+			"type": "string",
+			"description": "Background color",
+			"default": "white"
+		},
+		"opacity": {
+			"type": "number",
+			"description": "Opacity",
+			"default": 1
+		},
+		"width": {
+			"type": "integer",
+			"default": 30
+		},
+		"height": {
+			"type": "integer",
+			"default": 20
+		}
+	},
+	"methods": {
+		"setColor": {
+			"description": "Sets the background color.",
+			"parameters": [
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "The new background color"
+				}
+			],
+			"body": "this.color = newColor;"
+		},
+		"getColor": {
+			"returnType": "string",
+			"description": "Returns the background color.",
+			"body": "return this.color;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the dropdown Box."
+		}
+	}
+}
+
+
+ 

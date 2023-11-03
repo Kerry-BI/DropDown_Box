@@ -1,0 +1,20 @@
+{
+    "Dropdown_Values": [
+      {
+        "name": "currency",
+        "items": [
+          "euro",
+          "dollar",
+          "franc"
+        ]
+      },
+      {
+        "name": "scaling",
+        "items": [
+          "000's",
+          "Whole",
+          "M's"
+        ]
+      }
+    ]
+  }
