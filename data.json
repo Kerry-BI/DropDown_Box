@@ -1,21 +1,30 @@
 {
     "Dropdown_Values": [
-      {
-        "name": "currency",
-        "items": [
-          "euro",
-          "dollar",
-          "franc",
-          "yen"
-        ]
-      },
-      {
-        "name": "scaling",
-        "items": [
-          "000's",
-          "Whole",
-          "M's"
-        ]
-      }
+        {
+            "name": "currency",
+            "items": [
+                "EUR":"European Euro",
+                "USD":"United States Dollar",
+                "GBP":"British Pound",
+                "AUD":"Australian Dollar",
+		        "BRL":"Brazilian Real",
+		        "CAD":"Canadian Dollar"
+            ]
+        },
+        {
+            "name": "scaling",
+            "items": [
+                "000":"000's",
+                "Whole":"Whole",
+                "M":"M's"
+            ]
+        },
+	{
+            "name": "measures",
+            "items": [
+                "KG":"Kilogram",
+                "LBS":"US Pounds"
+            ]
+        }
     ]
-  }
+}
